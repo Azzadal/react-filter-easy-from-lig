@@ -12,6 +12,7 @@ const TagStyles = css({
 interface ITagProps {
   className?: string;
   closable?: boolean;
+  children?: React.ReactNode;
   onClose?: (e: React.MouseEvent<HTMLElement>) => void;
 }
 

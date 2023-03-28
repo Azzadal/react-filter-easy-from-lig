@@ -17,6 +17,7 @@ interface IAutoCompleteProps<T> {
   open?: boolean;
   onOpen?: (opened: boolean) => void;
   onChange?: (option: IAutoCompleteOption<T>) => void;
+  css: any;
 }
 
 const style = css({
